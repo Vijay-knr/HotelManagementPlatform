@@ -1,0 +1,152 @@
+-------------------------------------------------------------------------------
+Test set: RunCukeTest
+-------------------------------------------------------------------------------
+Tests run: 18, Failures: 0, Errors: 4, Skipped: 1, Time elapsed: 37.52 sec <<< FAILURE!
+Then I should see hotel \"Novotel\" created successfully(| Novotel | London | Mat | 01234567891 | novotel@london.com |)  Time elapsed: 0.004 sec  <<< ERROR!
+org.openqa.selenium.StaleElementReferenceException: Element not found in the cache - perhaps the page has changed since it was looked up
+Command duration or timeout: 10.21 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '2.51.0', revision: '1af067dbcaedd7d2ab9af5151fc471d363d97193', time: '2016-02-05 11:20:57'
+System info: host: 'vijayapals-MacBook-Pro.local', ip: '192.168.0.12', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.6', java.version: '1.8.0_60'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=46.0.1, platform=MAC, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: b35b57f2-8710-4647-91e6-7f93b9d416b8
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:327)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:85)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy14.click(Unknown Source)
+	at hotel.booking.StepDefs.i_should_see_hotel_created_successfully(StepDefs.java:62)
+	at ✽.Then I should see hotel "Novotel" created successfully(ManageHotelsBookings.feature:9)
+Caused by: org.openqa.selenium.StaleElementReferenceException: Element not found in the cache - perhaps the page has changed since it was looked up
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '2.51.0', revision: '1af067dbcaedd7d2ab9af5151fc471d363d97193', time: '2016-02-05 11:20:57'
+System info: host: 'vijayapals-MacBook-Pro.local', ip: '192.168.0.12', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.6', java.version: '1.8.0_60'
+Driver info: driver.version: unknown
+	at <anonymous class>.fxdriver.cache.getElementAt(resource://fxdriver/modules/web-element-cache.js:9407)
+	at <anonymous class>.Utils.getElementAt(file:///var/folders/yw/n4cpgnjn3vx6c3gqvb40nkq40000gn/T/anonymous2153249859534758121webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:8992)
+	at <anonymous class>.fxdriver.preconditions.visible(file:///var/folders/yw/n4cpgnjn3vx6c3gqvb40nkq40000gn/T/anonymous2153249859534758121webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:10043)
+	at <anonymous class>.DelayedCommand.prototype.checkPreconditions_(file:///var/folders/yw/n4cpgnjn3vx6c3gqvb40nkq40000gn/T/anonymous2153249859534758121webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12585)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_/h(file:///var/folders/yw/n4cpgnjn3vx6c3gqvb40nkq40000gn/T/anonymous2153249859534758121webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12602)
+	at <anonymous class>.fxdriver.Timer.prototype.setTimeout/<.notify(file:///var/folders/yw/n4cpgnjn3vx6c3gqvb40nkq40000gn/T/anonymous2153249859534758121webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:623)
+| Novotel | London | Mat | 01234567891 | novotel@london.com |  Time elapsed: 0.005 sec  <<< ERROR!
+org.openqa.selenium.StaleElementReferenceException: Element not found in the cache - perhaps the page has changed since it was looked up
+Command duration or timeout: 10.21 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '2.51.0', revision: '1af067dbcaedd7d2ab9af5151fc471d363d97193', time: '2016-02-05 11:20:57'
+System info: host: 'vijayapals-MacBook-Pro.local', ip: '192.168.0.12', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.6', java.version: '1.8.0_60'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=46.0.1, platform=MAC, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: b35b57f2-8710-4647-91e6-7f93b9d416b8
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:327)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:85)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy14.click(Unknown Source)
+	at hotel.booking.StepDefs.i_should_see_hotel_created_successfully(StepDefs.java:62)
+	at ✽.Then I should see hotel "Novotel" created successfully(ManageHotelsBookings.feature:9)
+Caused by: org.openqa.selenium.StaleElementReferenceException: Element not found in the cache - perhaps the page has changed since it was looked up
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '2.51.0', revision: '1af067dbcaedd7d2ab9af5151fc471d363d97193', time: '2016-02-05 11:20:57'
+System info: host: 'vijayapals-MacBook-Pro.local', ip: '192.168.0.12', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.6', java.version: '1.8.0_60'
+Driver info: driver.version: unknown
+	at <anonymous class>.fxdriver.cache.getElementAt(resource://fxdriver/modules/web-element-cache.js:9407)
+	at <anonymous class>.Utils.getElementAt(file:///var/folders/yw/n4cpgnjn3vx6c3gqvb40nkq40000gn/T/anonymous2153249859534758121webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:8992)
+	at <anonymous class>.fxdriver.preconditions.visible(file:///var/folders/yw/n4cpgnjn3vx6c3gqvb40nkq40000gn/T/anonymous2153249859534758121webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:10043)
+	at <anonymous class>.DelayedCommand.prototype.checkPreconditions_(file:///var/folders/yw/n4cpgnjn3vx6c3gqvb40nkq40000gn/T/anonymous2153249859534758121webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12585)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_/h(file:///var/folders/yw/n4cpgnjn3vx6c3gqvb40nkq40000gn/T/anonymous2153249859534758121webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12602)
+	at <anonymous class>.fxdriver.Timer.prototype.setTimeout/<.notify(file:///var/folders/yw/n4cpgnjn3vx6c3gqvb40nkq40000gn/T/anonymous2153249859534758121webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:623)
+Then I should see hotel \"HolidayInn\" deleted successfully(Scenario: Delete a new hotel entry)  Time elapsed: 0.001 sec  <<< ERROR!
+org.openqa.selenium.StaleElementReferenceException: Element not found in the cache - perhaps the page has changed since it was looked up
+Command duration or timeout: 10.15 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '2.51.0', revision: '1af067dbcaedd7d2ab9af5151fc471d363d97193', time: '2016-02-05 11:20:57'
+System info: host: 'vijayapals-MacBook-Pro.local', ip: '192.168.0.12', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.6', java.version: '1.8.0_60'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=46.0.1, platform=MAC, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: c7fad8fe-d059-6c43-b451-4e4e087e9dfd
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:327)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:122)
+	at sun.reflect.GeneratedMethodAccessor4.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy14.sendKeys(Unknown Source)
+	at pageobjects.BasePage.getNumberOfSearchResults(BasePage.java:30)
+	at hotel.booking.StepDefs.i_should_see_hotel_deleted_successfully(StepDefs.java:76)
+	at ✽.Then I should see hotel "HolidayInn" deleted successfully(ManageHotelsBookings.feature:21)
+Caused by: org.openqa.selenium.StaleElementReferenceException: Element not found in the cache - perhaps the page has changed since it was looked up
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '2.51.0', revision: '1af067dbcaedd7d2ab9af5151fc471d363d97193', time: '2016-02-05 11:20:57'
+System info: host: 'vijayapals-MacBook-Pro.local', ip: '192.168.0.12', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.6', java.version: '1.8.0_60'
+Driver info: driver.version: unknown
+	at <anonymous class>.fxdriver.cache.getElementAt(resource://fxdriver/modules/web-element-cache.js:9407)
+	at <anonymous class>.Utils.getElementAt(file:///var/folders/yw/n4cpgnjn3vx6c3gqvb40nkq40000gn/T/anonymous7298595165024047642webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:8992)
+	at <anonymous class>.fxdriver.preconditions.visible(file:///var/folders/yw/n4cpgnjn3vx6c3gqvb40nkq40000gn/T/anonymous7298595165024047642webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:10043)
+	at <anonymous class>.DelayedCommand.prototype.checkPreconditions_(file:///var/folders/yw/n4cpgnjn3vx6c3gqvb40nkq40000gn/T/anonymous7298595165024047642webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12585)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_/h(file:///var/folders/yw/n4cpgnjn3vx6c3gqvb40nkq40000gn/T/anonymous7298595165024047642webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12602)
+	at <anonymous class>.fxdriver.Timer.prototype.setTimeout/<.notify(file:///var/folders/yw/n4cpgnjn3vx6c3gqvb40nkq40000gn/T/anonymous7298595165024047642webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:623)
+Scenario: Delete a new hotel entry  Time elapsed: 0.002 sec  <<< ERROR!
+org.openqa.selenium.StaleElementReferenceException: Element not found in the cache - perhaps the page has changed since it was looked up
+Command duration or timeout: 10.15 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '2.51.0', revision: '1af067dbcaedd7d2ab9af5151fc471d363d97193', time: '2016-02-05 11:20:57'
+System info: host: 'vijayapals-MacBook-Pro.local', ip: '192.168.0.12', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.6', java.version: '1.8.0_60'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=46.0.1, platform=MAC, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: c7fad8fe-d059-6c43-b451-4e4e087e9dfd
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:327)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:122)
+	at sun.reflect.GeneratedMethodAccessor4.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy14.sendKeys(Unknown Source)
+	at pageobjects.BasePage.getNumberOfSearchResults(BasePage.java:30)
+	at hotel.booking.StepDefs.i_should_see_hotel_deleted_successfully(StepDefs.java:76)
+	at ✽.Then I should see hotel "HolidayInn" deleted successfully(ManageHotelsBookings.feature:21)
+Caused by: org.openqa.selenium.StaleElementReferenceException: Element not found in the cache - perhaps the page has changed since it was looked up
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '2.51.0', revision: '1af067dbcaedd7d2ab9af5151fc471d363d97193', time: '2016-02-05 11:20:57'
+System info: host: 'vijayapals-MacBook-Pro.local', ip: '192.168.0.12', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.6', java.version: '1.8.0_60'
+Driver info: driver.version: unknown
+	at <anonymous class>.fxdriver.cache.getElementAt(resource://fxdriver/modules/web-element-cache.js:9407)
+	at <anonymous class>.Utils.getElementAt(file:///var/folders/yw/n4cpgnjn3vx6c3gqvb40nkq40000gn/T/anonymous7298595165024047642webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:8992)
+	at <anonymous class>.fxdriver.preconditions.visible(file:///var/folders/yw/n4cpgnjn3vx6c3gqvb40nkq40000gn/T/anonymous7298595165024047642webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:10043)
+	at <anonymous class>.DelayedCommand.prototype.checkPreconditions_(file:///var/folders/yw/n4cpgnjn3vx6c3gqvb40nkq40000gn/T/anonymous7298595165024047642webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12585)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_/h(file:///var/folders/yw/n4cpgnjn3vx6c3gqvb40nkq40000gn/T/anonymous7298595165024047642webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12602)
+	at <anonymous class>.fxdriver.Timer.prototype.setTimeout/<.notify(file:///var/folders/yw/n4cpgnjn3vx6c3gqvb40nkq40000gn/T/anonymous7298595165024047642webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:623)

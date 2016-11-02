@@ -1,0 +1,34 @@
+-------------------------------------------------------------------------------
+Test set: hotel.booking.RunCukeTest
+-------------------------------------------------------------------------------
+Tests run: 18, Failures: 0, Errors: 6, Skipped: 9, Time elapsed: 10.881 sec <<< FAILURE!
+And that I have logged in as an \"admin\" with password \"password\"(| Ramada | London | Rob | 01234567890 | ramada@london.com |)  Time elapsed: 0.001 sec  <<< ERROR!
+java.lang.NullPointerException
+	at hotel.booking.StepDefs.loginAs(StepDefs.java:79)
+	at hotel.booking.StepDefs.that_I_have_logged_in_as_an_with_password(StepDefs.java:49)
+	at ✽.And that I have logged in as an "admin" with password "password"(ManageHotelsBookings.feature:5)
+| Ramada | London | Rob | 01234567890 | ramada@london.com |  Time elapsed: 0.002 sec  <<< ERROR!
+java.lang.NullPointerException
+	at hotel.booking.StepDefs.loginAs(StepDefs.java:79)
+	at hotel.booking.StepDefs.that_I_have_logged_in_as_an_with_password(StepDefs.java:49)
+	at ✽.And that I have logged in as an "admin" with password "password"(ManageHotelsBookings.feature:5)
+And that I have logged in as an \"admin\" with password \"password\"(| Novotel | London | Mat | 01234567891 | novotel@london.com |)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.NullPointerException
+	at hotel.booking.StepDefs.loginAs(StepDefs.java:79)
+	at hotel.booking.StepDefs.that_I_have_logged_in_as_an_with_password(StepDefs.java:49)
+	at ✽.And that I have logged in as an "admin" with password "password"(ManageHotelsBookings.feature:5)
+| Novotel | London | Mat | 01234567891 | novotel@london.com |  Time elapsed: 0 sec  <<< ERROR!
+java.lang.NullPointerException
+	at hotel.booking.StepDefs.loginAs(StepDefs.java:79)
+	at hotel.booking.StepDefs.that_I_have_logged_in_as_an_with_password(StepDefs.java:49)
+	at ✽.And that I have logged in as an "admin" with password "password"(ManageHotelsBookings.feature:5)
+And that I have logged in as an \"admin\" with password \"password\"(Scenario: Delete a new hotel entry)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.NullPointerException
+	at hotel.booking.StepDefs.loginAs(StepDefs.java:79)
+	at hotel.booking.StepDefs.that_I_have_logged_in_as_an_with_password(StepDefs.java:49)
+	at ✽.And that I have logged in as an "admin" with password "password"(ManageHotelsBookings.feature:5)
+Scenario: Delete a new hotel entry  Time elapsed: 0 sec  <<< ERROR!
+java.lang.NullPointerException
+	at hotel.booking.StepDefs.loginAs(StepDefs.java:79)
+	at hotel.booking.StepDefs.that_I_have_logged_in_as_an_with_password(StepDefs.java:49)
+	at ✽.And that I have logged in as an "admin" with password "password"(ManageHotelsBookings.feature:5)

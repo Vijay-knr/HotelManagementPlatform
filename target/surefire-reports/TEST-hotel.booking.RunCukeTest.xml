@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="18" failures="0" name="hotel.booking.RunCukeTest" time="10.88" errors="6" skipped="9">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre/lib"/>
+    <property name="java.vm.version" value="25.60-b23"/>
+    <property name="user.country.format" value="IE"/>
+    <property name="gopherProxySet" value="false"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=":"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/Users/vijayapalkayyam/Desktop/HMP-Automation-test"/>
+    <property name="java.runtime.version" value="1.8.0_60-b27"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre/lib/endorsed"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.io.tmpdir" value="/var/folders/yw/n4cpgnjn3vx6c3gqvb40nkq40000gn/T/"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="classworlds.conf" value="/Users/vijayapalkayyam/Desktop/.metadata/.plugins/org.eclipse.m2e.launching/launches/m2conf3405159823860788704.tmp"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/vijayapalkayyam/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.11.6"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="user.home" value="/Users/vijayapalkayyam"/>
+    <property name="user.timezone" value="Europe/London"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="vijayapalkayyam"/>
+    <property name="java.class.path" value="/Users/vijayapalkayyam/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/268/1/.cp/jars/plexus-classworlds-2.4.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B test"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_60"/>
+    <property name="java.ext.dirs" value="/Users/vijayapalkayyam/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
+    <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre/classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="/Users/vijayapalkayyam/Desktop/HMP-Automation-test/EMBEDDED"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="maven.bootclasspath" value="/Users/vijayapalkayyam/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/268/1/.cp/jars/plexus-classworlds-2.4.jar"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase classname="| Ramada | London | Rob | 01234567890 | ramada@london.com |" name="Given that I am at \&quot;http:\/\/localhost:3003\/\&quot;" time="0.001"/>
+  <testcase classname="| Ramada | London | Rob | 01234567890 | ramada@london.com |" name="And that I have logged in as an \&quot;admin\&quot; with password \&quot;password\&quot;" time="0.001">
+    <error type="java.lang.NullPointerException">java.lang.NullPointerException
+	at hotel.booking.StepDefs.loginAs(StepDefs.java:79)
+	at hotel.booking.StepDefs.that_I_have_logged_in_as_an_with_password(StepDefs.java:49)
+	at ✽.And that I have logged in as an &quot;admin&quot; with password &quot;password&quot;(ManageHotelsBookings.feature:5)
+</error>
+  </testcase>
+  <testcase classname="| Ramada | London | Rob | 01234567890 | ramada@london.com |" name="| Ramada | London | Rob | 01234567890 | ramada@london.com |" time="0.002">
+    <error type="java.lang.NullPointerException">java.lang.NullPointerException
+	at hotel.booking.StepDefs.loginAs(StepDefs.java:79)
+	at hotel.booking.StepDefs.that_I_have_logged_in_as_an_with_password(StepDefs.java:49)
+	at ✽.And that I have logged in as an &quot;admin&quot; with password &quot;password&quot;(ManageHotelsBookings.feature:5)
+</error>
+  </testcase>
+  <testcase classname="| Ramada | London | Rob | 01234567890 | ramada@london.com |" name="When I create a new hotel with \&quot;Ramada\&quot;\u002C\&quot;London\&quot;\u002C\&quot;Rob\&quot;\u002C\&quot;01234567890\&quot;\u002C\&quot;ramada@london.com\&quot;" time="0.006">
+    <skipped/>
+  </testcase>
+  <testcase classname="| Ramada | London | Rob | 01234567890 | ramada@london.com |" name="Then I should see hotel \&quot;Ramada\&quot; created successfully" time="0.007">
+    <skipped/>
+  </testcase>
+  <testcase classname="| Ramada | London | Rob | 01234567890 | ramada@london.com |" name="Then I delete a hotel with name \&quot;Ramada\&quot;" time="0.008">
+    <skipped/>
+  </testcase>
+  <testcase classname="| Novotel | London | Mat | 01234567891 | novotel@london.com |" name="Given that I am at \&quot;http:\/\/localhost:3003\/\&quot;" time="0"/>
+  <testcase classname="| Novotel | London | Mat | 01234567891 | novotel@london.com |" name="And that I have logged in as an \&quot;admin\&quot; with password \&quot;password\&quot;" time="0">
+    <error type="java.lang.NullPointerException">java.lang.NullPointerException
+	at hotel.booking.StepDefs.loginAs(StepDefs.java:79)
+	at hotel.booking.StepDefs.that_I_have_logged_in_as_an_with_password(StepDefs.java:49)
+	at ✽.And that I have logged in as an &quot;admin&quot; with password &quot;password&quot;(ManageHotelsBookings.feature:5)
+</error>
+  </testcase>
+  <testcase classname="| Novotel | London | Mat | 01234567891 | novotel@london.com |" name="| Novotel | London | Mat | 01234567891 | novotel@london.com |" time="0">
+    <error type="java.lang.NullPointerException">java.lang.NullPointerException
+	at hotel.booking.StepDefs.loginAs(StepDefs.java:79)
+	at hotel.booking.StepDefs.that_I_have_logged_in_as_an_with_password(StepDefs.java:49)
+	at ✽.And that I have logged in as an &quot;admin&quot; with password &quot;password&quot;(ManageHotelsBookings.feature:5)
+</error>
+  </testcase>
+  <testcase classname="| Novotel | London | Mat | 01234567891 | novotel@london.com |" name="When I create a new hotel with \&quot;Novotel\&quot;\u002C\&quot;London\&quot;\u002C\&quot;Mat\&quot;\u002C\&quot;01234567891\&quot;\u002C\&quot;novotel@london.com\&quot;" time="0.008">
+    <skipped/>
+  </testcase>
+  <testcase classname="| Novotel | London | Mat | 01234567891 | novotel@london.com |" name="Then I should see hotel \&quot;Novotel\&quot; created successfully" time="0.011">
+    <skipped/>
+  </testcase>
+  <testcase classname="| Novotel | London | Mat | 01234567891 | novotel@london.com |" name="Then I delete a hotel with name \&quot;Novotel\&quot;" time="0.012">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: Delete a new hotel entry" name="Given that I am at \&quot;http:\/\/localhost:3003\/\&quot;" time="0"/>
+  <testcase classname="Scenario: Delete a new hotel entry" name="And that I have logged in as an \&quot;admin\&quot; with password \&quot;password\&quot;" time="0">
+    <error type="java.lang.NullPointerException">java.lang.NullPointerException
+	at hotel.booking.StepDefs.loginAs(StepDefs.java:79)
+	at hotel.booking.StepDefs.that_I_have_logged_in_as_an_with_password(StepDefs.java:49)
+	at ✽.And that I have logged in as an &quot;admin&quot; with password &quot;password&quot;(ManageHotelsBookings.feature:5)
+</error>
+  </testcase>
+  <testcase classname="Scenario: Delete a new hotel entry" name="Scenario: Delete a new hotel entry" time="0">
+    <error type="java.lang.NullPointerException">java.lang.NullPointerException
+	at hotel.booking.StepDefs.loginAs(StepDefs.java:79)
+	at hotel.booking.StepDefs.that_I_have_logged_in_as_an_with_password(StepDefs.java:49)
+	at ✽.And that I have logged in as an &quot;admin&quot; with password &quot;password&quot;(ManageHotelsBookings.feature:5)
+</error>
+  </testcase>
+  <testcase classname="Scenario: Delete a new hotel entry" name="Given I create a new hotel with \&quot;HolidayInn\&quot;\u002C\&quot;London\&quot;\u002C\&quot;Andy\&quot;\u002C\&quot;01234567892\&quot;\u002C\&quot;holidayinn@london.com\&quot;" time="0.003">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: Delete a new hotel entry" name="When I delete a hotel with name \&quot;HolidayInn\&quot;" time="0.004">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: Delete a new hotel entry" name="Then I should see hotel \&quot;HolidayInn\&quot; deleted successfully" time="0.004">
+    <skipped/>
+  </testcase>
+</testsuite>
